@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: #222;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #fff;
+    color: #222;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* CONTACT */
+.contact-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 12px 24px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* ABOUT */
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    background: #eee;
+    padding: 40px 20px;
+    text-align: center;
+}
+.footer input {
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+}
+.footer button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* COOKIE BANNER */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.cookie-banner button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #222;
+    border: none;
+    border-radius: 4px;
+}
