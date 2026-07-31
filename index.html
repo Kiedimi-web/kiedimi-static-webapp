@@ -10,23 +10,29 @@
 
     <!-- HERO -->
     <header class="hero">
+        <div class="overlay"></div>
         <div class="hero-content">
+            <div class="logo-box">K</div>
             <h1>Kiedimi Limited</h1>
             <p>Helping build the XR & AI Ecosystem</p>
-            <a href="#contact" class="btn">Contact Us</a>
         </div>
     </header>
 
-    <!-- CONTACT FORM -->
-    <section id="contact" class="contact-section">
-        <h2>Drop us a line!</h2>
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p class="subtitle">Drop us a line!</p>
+
         <form class="contact-form">
             <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email*">
             <textarea placeholder="Message"></textarea>
-            <button type="submit">Send</button>
+            <button type="submit">SEND</button>
         </form>
-        <p class="recaptcha-note">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+
+        <p class="recaptcha-note">
+            This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+        </p>
     </section>
 
     <!-- ABOUT -->
@@ -38,35 +44,26 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        <h3>Kiedimi Limited</h3>
-        <p>Contact: <a href="mailto:info@kiedimi.com">info@kiedimi.com</a></p>
-        <p>Mobile: +44 (0) 7380 656 564</p>
-
-        <div class="subscribe">
-            <h4>Subscribe</h4>
-            <p>Sign up to be the first to know about our soft launch events.</p>
-            <input type="email" placeholder="Email">
-            <button>Sign up</button>
+        <div class="social">
+            <p>Follow us on social for updates.</p>
+            <div class="linkedin-icon">in</div>
         </div>
 
-        <p class="copyright">© 2024 Kiedimi Limited - All Rights Reserved.</p>
+        <div class="subscribe">
+            <h3>Subscribe</h3>
+            <p>Sign up to be the first to know about our soft launch events.</p>
+            <input type="email" placeholder="Email">
+            <button>SIGN UP</button>
+        </div>
+
+        <div class="footer-contact">
+            <p><strong>Kiedimi Limited</strong></p>
+            <p>Email: <a href="mailto:info@kiedimi.com">info@kiedimi.com</a></p>
+            <p>Mobile: +44 (0) 7380 656 564</p>
+        </div>
+
+        <p class="copyright">© 2024 Kiedimi Limited. All Rights Reserved.</p>
     </footer>
-
-    <!-- COOKIE BANNER -->
-    <div class="cookie-banner" id="cookieBanner">
-        <p>We use cookies to analyze website traffic and optimize your website experience.</p>
-        <button onclick="acceptCookies()">Accept</button>
-        <button onclick="declineCookies()">Decline</button>
-    </div>
-
-    <script>
-        function acceptCookies() {
-            document.getElementById('cookieBanner').style.display = 'none';
-        }
-        function declineCookies() {
-            document.getElementById('cookieBanner').style.display = 'none';
-        }
-    </script>
 
 </body>
 </html>
