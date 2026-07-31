@@ -1,94 +1,116 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f7f7f7;
     color: #333;
 }
 
 /* HERO */
 .hero {
-    background: #222;
-    color: #fff;
-    padding: 80px 20px;
+    position: relative;
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    color: white;
 }
-.hero .btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background: #fff;
-    color: #222;
-    text-decoration: none;
-    border-radius: 4px;
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.logo-box {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 /* CONTACT */
 .contact-section {
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 700px;
+    margin: 60px auto;
     padding: 0 20px;
+    text-align: center;
+}
+.subtitle {
+    margin-top: -10px;
+    color: #666;
 }
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 .contact-form button {
-    padding: 12px 24px;
-    background: #222;
-    color: #fff;
+    width: 100%;
+    padding: 14px;
+    background: black;
+    color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* ABOUT */
 .about-section {
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 700px;
+    margin: 60px auto;
     padding: 0 20px;
-    line-height: 1.6;
+    line-height: 1.7;
+    text-align: center;
 }
 
 /* FOOTER */
 .footer {
-    background: #eee;
+    background: #111;
+    color: white;
     padding: 40px 20px;
     text-align: center;
 }
-.footer input {
-    padding: 10px;
-    width: 200px;
-    margin-top: 10px;
-}
-.footer button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    background: #222;
-    color: #fff;
-    border: none;
+.linkedin-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: white;
+    color: #111;
     border-radius: 4px;
+    font-weight: bold;
+    line-height: 32px;
 }
-
-/* COOKIE BANNER */
-.cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-.cookie-banner button {
-    margin: 10px;
-    padding: 10px 20px;
-    background: #fff;
-    color: #222;
+.subscribe input {
+    padding: 12px;
+    width: 240px;
+    margin-top: 10px;
+    border-radius: 6px;
     border: none;
-    border-radius: 4px;
+}
+.subscribe button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    background: white;
+    color: #111;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.footer-contact {
+    margin-top: 30px;
+}
+a {
+    color: #fff;
 }
