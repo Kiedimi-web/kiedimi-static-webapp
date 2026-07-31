@@ -3,48 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiedimi</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f7f7f7;
-            color: #333;
-        }
-        header {
-            background: #222;
-            color: #fff;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        section {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #eee;
-            margin-top: 40px;
-        }
-    </style>
+    <title>Kiedimi Limited</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Kiedimi</h1>
-        <p>Simple. Clean. Effective.</p>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Kiedimi Limited</h1>
+            <p>Helping build the XR & AI Ecosystem</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
     </header>
 
-    <section>
-        <h2>Welcome</h2>
-        <p>This is the new version of the Kiedimi website, now hosted on Microsoft Azure Static Web Apps for fast, secure, global delivery.</p>
+    <!-- CONTACT FORM -->
+    <section id="contact" class="contact-section">
+        <h2>Drop us a line!</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p class="recaptcha-note">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
     </section>
 
-    <footer>
-        <p>© 2026 Kiedimi</p>
+    <!-- ABOUT -->
+    <section class="about-section">
+        <h2>Love to hear from you</h2>
+        <p>Kiedimi has track record in mentoring startups, business development and building partner ecosystems.</p>
+        <p>We have experience in working for global vendors and startups alike and strong network across industries with particular focus on XR, AI, and emerging technologies.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3>Kiedimi Limited</h3>
+        <p>Contact: <a href="mailto:info@kiedimi.com">info@kiedimi.com</a></p>
+        <p>Mobile: +44 (0) 7380 656 564</p>
+
+        <div class="subscribe">
+            <h4>Subscribe</h4>
+            <p>Sign up to be the first to know about our soft launch events.</p>
+            <input type="email" placeholder="Email">
+            <button>Sign up</button>
+        </div>
+
+        <p class="copyright">© 2024 Kiedimi Limited - All Rights Reserved.</p>
     </footer>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner" id="cookieBanner">
+        <p>We use cookies to analyze website traffic and optimize your website experience.</p>
+        <button onclick="acceptCookies()">Accept</button>
+        <button onclick="declineCookies()">Decline</button>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            document.getElementById('cookieBanner').style.display = 'none';
+        }
+        function declineCookies() {
+            document.getElementById('cookieBanner').style.display = 'none';
+        }
+    </script>
+
 </body>
 </html>
