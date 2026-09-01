@@ -202,7 +202,7 @@ a {
 
 /* Recenter Ruby within her existing circle */
 .associate-card:nth-child(4) .avatar-circle {
-    object-position: center 30%;
+    object-position: center 10%;
 }
 
 .associate-card h3 {
