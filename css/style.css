@@ -114,6 +114,7 @@ body {
 a {
     color: #fff;
 }
+
 /* ASSOCIATES */
 .associates-section {
     position: relative;
@@ -181,18 +182,25 @@ a {
     object-position: center;
 }
 
-/* Make Ruby's picture smaller */
-.associate-card:nth-child(4) .avatar-circle {
-    width: 56px;
-    height: 56px;
+.avatar-frame {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 16px;
+}
+.avatar-frame .avatar-circle {
+    margin: 0;
+    border-radius: 0;
+    background: none;
+}
+.avatar-circle.zoom {
+    transform: scale(1.35);
 }
 
-/* Make Jeremy, Phil, and Josh's pictures larger */
-.associate-card:nth-child(6) .avatar-circle,
-.associate-card:nth-child(7) .avatar-circle,
-.associate-card:nth-child(8) .avatar-circle {
-    width: 88px;
-    height: 88px;
+/* Recenter Ruby within her existing circle */
+.associate-card:nth-child(4) .avatar-circle {
+    object-position: center 30%;
 }
 
 .associate-card h3 {
