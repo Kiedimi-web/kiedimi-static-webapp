@@ -195,7 +195,7 @@ a {
     background: none;
 }
 .avatar-circle.zoom {
-    transform: scale(1.35);
+    transform: scale(1.15);
 }
 
 /* Recenter Ruby within her existing circle */
