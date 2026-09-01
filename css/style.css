@@ -178,7 +178,7 @@ a {
     color: #0d1321;
     background: linear-gradient(135deg, #22d3ee, #a855f7);
     object-fit: cover;
-}
+    object-position: center;
 }
 
 .associate-card h3 {
